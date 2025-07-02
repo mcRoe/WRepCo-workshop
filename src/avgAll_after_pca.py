@@ -99,7 +99,7 @@ if __name__ == '__main__':
         sys.exit(0)
     else:
 
-        #Get iteration number from pca_...._Iter.csv file by reading it from first item in list
+        #Get iteration number from pca_...._Iter.csv file by extracting it from first item in list of pca_basename files
         filename_list = pca_fileNames[0].split('_')
         pca_iter = [iteration for iteration in filename_list if iteration.startswith('Iter')][0].removeprefix('Iter')
         
