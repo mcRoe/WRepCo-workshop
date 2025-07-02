@@ -18,6 +18,8 @@ This script takes output from clusterPCA run from Imod's PEET software and:
 ## Options:
 
 - -*b* or --*basename*  Similar to the fn name in the imod project
+
+(optional)  
 - -*r* or --*revert*    Reverts the .bak files to original. USE THIS FLAG WITH CARE: OPERATION WILL OVERWRITE PCA RESULTS
 
 ## Usage:
