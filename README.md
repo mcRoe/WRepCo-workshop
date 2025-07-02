@@ -1,3 +1,5 @@
+<a href="https://handle.stage.datacite.org/10.5072/zenodo.280961"><img src="https://sandbox.zenodo.org/badge/1011702611.svg" alt="DOI"></a>
+
 # averageAll after pca classification in Imod's PEET 
 
 This script takes output from clusterPCA run from Imod's PEET software and:
