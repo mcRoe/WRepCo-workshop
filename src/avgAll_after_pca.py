@@ -18,6 +18,9 @@ import sys
 import csv
 
 def backup_original(filename_with_pca_prefix):
+    ''' 
+    Renames the basename_postfix to basename_postfix.bak
+    '''
     orig = filename_with_pca_prefix.removeprefix("pca_")
     new = f"{orig}.bak"
     
