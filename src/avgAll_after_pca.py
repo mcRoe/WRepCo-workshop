@@ -1,10 +1,9 @@
 #!/usr/bin/env python
 '''
-
 What to do: 
 Take output from clusterPCA run and:
-- rename -filename-_MOTL_Iter?.csv to -filename-_MOTL_Iter?.csv.bak
-- rename pca-filename-_MOTL_Iter?.csv to -filename-_MOTL_Iter?.csv
+- rename -filename-_MOTL_Iter*.csv to -filename-_MOTL_Iter*.csv.bak
+- rename pca-filename-_MOTL_Iter*.csv to -filename-_MOTL_Iter*.csv
 - Run create class averages through averageAll
 
 input rootName
