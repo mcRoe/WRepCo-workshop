@@ -8,15 +8,17 @@ This script takes output from clusterPCA run from Imod's PEET software and:
 
 ## Dependencies:
 
-(Can be downloaded on https://bio3d.colorado.edu/)
-Imod 4.10 or greater
-PEET 13.0 or greater
+- Python
+
+(Following packages are found on https://bio3d.colorado.edu/)  
+- Imod 4.10 or greater
+- PEET 13.0 or greater
 
 
 ## Options:
 
 - -*b* or --*basename*  Similar to the fn name in the imod project
-- -*r* or --*revert*    Reverts the .bak files to original. USE WITH CARE: OPERATION OVERWRITES PCA RESULTS
+- -*r* or --*revert*    Reverts the .bak files to original. USE THIS FLAG WITH CARE: OPERATION WILL OVERWRITE PCA RESULTS
 
 ## Usage:
 'avgAll_after.py -b 01_bin4_tomo01'
